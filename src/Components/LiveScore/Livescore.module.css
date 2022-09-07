@@ -1,0 +1,44 @@
+.container {
+    width: 900px;
+    margin: 40px auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 12px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav>button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.active {
+    color: skyblue;
+    border-bottom: 5px solid skyblue !important;
+}
+ button:hover {
+     background-color: aqua;
+     cursor: pointer;
+ }
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

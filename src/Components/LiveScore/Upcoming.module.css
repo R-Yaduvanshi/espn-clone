@@ -1,0 +1,101 @@
+.upcom {
+  /* margin-left: 300px;
+          border: 1px solid purple;
+          width: 820px;
+          height: 300px;
+          
+         // border: transparent;
+          margin: auto;
+          display: inline-flex;
+          background-color: white; */
+
+  /* ********************************************* */
+  width: 900px;
+  /* border: 1px solid;  */
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  padding: 20px;
+  border-radius: 12px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.contai {
+  width: inherit;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  color: rgb(87, 82, 82);
+}
+
+.upcom div:hover {
+  background-color: rgb(211, 234, 243);
+}
+
+hr {
+  width: 884px;
+  float: right;
+}
+
+.add_box {
+  float: right;
+  /* border: 5px solid red; */
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.adds_box > div {
+  width: 320px;
+  height: 250px;
+  /* border: 4px solid black; */
+  /* float: right; */
+  box-shadow: 10px 10px 1px whitesmoke;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.16);
+}
+
+.adds_box > div > div {
+  width: 300px;
+  height: 30px;
+  /* border: 1px solid black; */
+  margin-left: 5%;
+  background-color: white;
+  margin-top: 3%;
+}
+
+.add {
+  width: 320px;
+  height: 600px;
+  border: transparent;
+  margin-left: 5%;
+  border-radius: 12px;
+}
+
+.add1 {
+  width: 320px;
+  height: 600px;
+  border: transparent;
+  margin-left: 5%;
+  border-radius: 12px;
+  margin-top: 3%;
+}
+
+.add > img {
+  width: 320px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.add1 > img {
+  width: 320px;
+  height: 600px;
+  border-radius: 12px;
+}

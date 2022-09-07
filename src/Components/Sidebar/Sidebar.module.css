@@ -1,0 +1,144 @@
+/* body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  } */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 210px;
+    background-color: rgb(249, 249, 251);
+    /* position: fixed; */
+    height: 100%;
+    overflow: auto;
+    text-transform: capitalize;
+    margin-left: 18px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(205, 194, 194);
+   
+    border-radius: 10px;
+}
+
+.sidebar hr {
+    border: 1px solid ;
+    border-top: 1px solid #aca5a5;
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 90%;
+    display: flex;
+    width: 120%;
+    margin-left: -15px;
+    margin-top: 10px;
+    /* height: 1px; */
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+}
+
+.sidebar a.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: rgb(165, 214, 237);
+    /* color: gray; */
+}
+
+
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: auto;
+    font-size: 12px;
+    border: 1px solid red;
+}
+
+.brand {
+    text-align: left;
+    justify-content: space-around;
+}
+
+.slider {
+    box-sizing: border-box;
+    direction: ltr;
+    height: auto;
+    position: relative;
+    width: auto;
+    /* will-change: transform; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 225px;
+    outline: none;
+    padding: 0 15px;
+}
+
+.filter {
+    height: 20px;
+    display: flex;
+    grid-template-columns: 50% 70% ;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    min-width: 80%;
+    cursor: pointer;
+    font-size: 12px;
+    align-items: center;
+}
+
+.filter:hover {
+    color:rgb(3, 169, 244);
+}
+
+
+
+.CatHeading {
+    font-size: 12px;
+    font-weight: 650;
+    color: #4d4848;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 1px solid rgb(215, 207, 207);
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    padding: 5px;
+    /* text-transform: uppercase; */
+}
+
+.Featured_div {
+    font-weight: 700;
+    color: #ff6f61;
+    font-size: 12px;
+}
+
+.filter_name {
+    font-size: 14px;
+    color: #212121;
+    padding-top: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* margin-top: 20px; */
+}
+
+.filter_heading {
+    font-size: 14px;
+    color: #212121;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+
+.filter_input {
+    border-radius: 4px;
+    border: 1px solid #b3b3b3;
+    padding: 5px;
+    box-shadow: 0 0 2px #ccc;
+}
+
