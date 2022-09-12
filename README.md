@@ -5,7 +5,12 @@
 
 <h3> It is a sports news website exclusively for the game of cricket. The site features news, articles, live coverage of cricket matches , and StatsGuru, a database of historical matches and players from the 18th century to the present. </h3>
 
-# ESPNcricinfo CLOne
+## Collaborators (Masai school's Student)
+ - [Nikhil Hirulkar](https://github.com/nikhilhir)
+ - [Tejaswini Mahale](https://github.com/TejaswiniMahale)
+ - [Rifakat Husain](https://github.com/Rifakat7)
+- [Rajendra Yadav](https://github.com/R-Yaduvanshi)
+
 # Deploy Link
 https://espnericinfo-healthy-level-4386.vercel.app/
 
